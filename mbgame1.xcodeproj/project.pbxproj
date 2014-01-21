@@ -21,6 +21,8 @@
 		F554944B188DF303003ECC63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554942D188DF302003ECC63 /* UIKit.framework */; };
 		F5549453188DF303003ECC63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5549451188DF303003ECC63 /* InfoPlist.strings */; };
 		F5549455188DF303003ECC63 /* mbgame1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5549454188DF303003ECC63 /* mbgame1Tests.m */; };
+		F5549461188DF70B003ECC63 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F554945F188DF70B003ECC63 /* RootViewController.m */; };
+		F5549462188DF70B003ECC63 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5549460188DF70B003ECC63 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		F5549450188DF303003ECC63 /* mbgame1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mbgame1Tests-Info.plist"; sourceTree = "<group>"; };
 		F5549452188DF303003ECC63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5549454188DF303003ECC63 /* mbgame1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbgame1Tests.m; sourceTree = "<group>"; };
+		F554945E188DF70B003ECC63 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F554945F188DF70B003ECC63 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F5549460188DF70B003ECC63 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				F554943F188DF302003ECC63 /* ViewController.m */,
 				F5549441188DF303003ECC63 /* Images.xcassets */,
 				F5549430188DF302003ECC63 /* Supporting Files */,
+				F554945E188DF70B003ECC63 /* RootViewController.h */,
+				F554945F188DF70B003ECC63 /* RootViewController.m */,
+				F5549460188DF70B003ECC63 /* RootViewController.xib */,
 			);
 			path = mbgame1;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				F5549442188DF303003ECC63 /* Images.xcassets in Resources */,
 				F5549434188DF302003ECC63 /* InfoPlist.strings in Resources */,
+				F5549462188DF70B003ECC63 /* RootViewController.xib in Resources */,
 				F554943D188DF302003ECC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 			files = (
 				F5549440188DF302003ECC63 /* ViewController.m in Sources */,
 				F554943A188DF302003ECC63 /* AppDelegate.m in Sources */,
+				F5549461188DF70B003ECC63 /* RootViewController.m in Sources */,
 				F5549436188DF302003ECC63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  mbgame1
 //
 //  Created by Student on 1/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController :  UIViewController
+@interface RootViewController : UIViewController
 
 @end
